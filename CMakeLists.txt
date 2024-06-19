@@ -160,6 +160,7 @@ add_executable(straight_move src/straight_move.cpp)
 add_executable(straight_imp src/straight_imp.cpp)
 add_executable(wiper src/wiper.cpp)
 add_executable(wiper_imp src/wiper_imp.cpp)
+add_executable(number_input src/number_input.cpp)
 
 ## Specify libraries to link a library or executable target against
 # target_link_libraries(${PROJECT_NAME}_node
@@ -170,6 +171,7 @@ target_link_libraries(straight_move ${catkin_LIBRARIES})
 target_link_libraries(straight_imp ${catkin_LIBRARIES})
 target_link_libraries(wiper ${catkin_LIBRARIES})
 target_link_libraries(wiper_imp ${catkin_LIBRARIES})
+target_link_libraries(number_input ${catkin_LIBRARIES})
 
 #############
 ## Install ##
